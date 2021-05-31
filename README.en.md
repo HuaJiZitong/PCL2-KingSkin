@@ -1,36 +1,26 @@
 # PCL2-KingSkin
 
-#### Description
-PCL2的自定义主题
+#### Introduction
 
-#### Software Architecture
-Software architecture description
+Custom theme project of pcl2
 
-#### Installation
+#### Skin plug in framework
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+The plug-in is XML language XAML
+If you are interested, go to see the submission requests
 
-#### Instructions
+#### Using the tutorial
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+1. Unzip PCL.zip to folder
+2. Open PCL.exe (Launcher Body)
+3. Automatic loading of skin plug-ins
+4. Start your Minecraft journey
 
 #### Contribution
 
-1.  Fork the repository
-2.  Create Feat_xxx branch
-3.  Commit your code
-4.  Create Pull Request
-
-
-#### Gitee Feature
-
-1.  You can use Readme\_XXX.md to support different languages, such as Readme\_en.md, Readme\_zh.md
-2.  Gitee blog [blog.gitee.com](https://blog.gitee.com)
-3.  Explore open source project [https://gitee.com/explore](https://gitee.com/explore)
-4.  The most valuable open source project [GVP](https://gitee.com/gvp)
-5.  The manual of Gitee [https://gitee.com/help](https://gitee.com/help)
-6.  The most popular members  [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
+1. Thank Baidu Translator for providing English version README
+2. Thank LTCatt for developing PCL2 Launcher
+    Github:https://github.com/LTCatt 
+    afdian:http://afdian.net/@LTCat
+3. Thank LTCatt for providing platform interface support
+    https://github.com/LTCatt/PCL2Help

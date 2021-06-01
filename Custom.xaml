@@ -1,0 +1,265 @@
+﻿<!--第一卡片-->
+<local:MyCard Title="King Skin For PCL" Margin="0,0,0,15" Background="{DynamicResource ColorBrush15}">
+	<StackPanel Margin="25,40,23,15">
+		<local:MyHint IsWarn="True" HorizontalAlignment="Center" Text="此主页为Alpha版本！大部分功能处于测试阶段" />
+          <local:MyHint IsWarn="False" HorizontalAlignment="Center" Text="红色功能请安装King Skin插件库（扩展库内）" />
+		<Image Height="250"  HorizontalAlignment="Center" Source="https://i0.hdslb.com/bfs/album/7a44de100f50f09a4d93c68ba1cc7407f3eef838.png" />
+		<!--下一个菜单行-->
+          <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+           	<local:MyButton Margin="0,0,20,2" Width="140" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0" ColorType="Highlight"
+                    Text="King主页" EventType="打开网页" EventData="https://space.bilibili.com/495639032" ToolTip="HuaJi_King的b站主页" />
+               <local:MyButton Margin="0,0,20,2" Width="140" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0" ColorType="Highlight"
+                    Text="刷新主页" EventType="刷新主页" ToolTip="这通常用于联网更新主页时刷新信息，对本地文件没啥用" />
+            	<local:MyButton Margin="0,0,20,2" Width="140" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0" ColorType="Highlight"
+                   	Text="MC官网连接测试" EventType="打开文件" EventData="KingSkin插件库\hyp+官网监测.bat" ToolTip="试试mojang有没有歇菜"/>
+		</StackPanel>
+		<!--下一个菜单行-->
+		<StackPanel Orientation="Horizontal" HorizontalAlignment="Center">            	
+			<local:MyButton Margin="0,0,20,2" Width="140" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0" ColorType="red"
+                   	Text="安装jre8" EventType="打开网页" EventData="https://download.mcbbs.net/java/jre_x64.exe" ToolTip="需要网络支持" />
+               <local:MyButton Margin="0,0,20,2" Width="140" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0" ColorType="Highlight"
+                    Text="打开主页" EventType="打开网页" EventData="https://limestart.cn/" />
+            	<local:MyButton Margin="0,0,20,2" Width="140" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0" ColorType="Highlight"
+                   	Text="下载我的头像" EventType="下载文件" EventData="https://i0.hdslb.com/bfs/album/7a44de100f50f09a4d93c68ba1cc7407f3eef838.png" />
+        	</StackPanel>
+        	<!--下一个菜单行-->
+		<StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+			<local:MyButton Margin="0,0,20,2" Width="140" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0 " ColorType="red"
+				Text="进入语音服务器" EventType="打开文件" EventData="./KingSkin插件库/1.html" ToolTip="滑稽的转转酒吧" />
+			<local:MyButton Margin="0,0,20,2" Width="140" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0" ColorType="Highlight"
+				Text="下载扩展库" EventType="下载文件" EventData="https://vip.d0.baidupan.com/file/?VTNQbl1sUmNWXwU9Cz5QPFFuUmpQRAVuBWwGZ1RbVx0Ca1NqCLMH2gL9BbZQtVDEV+gHuAfLAi5VKFY5BysHIFUzUG5dbFJjVl8FOgs7UGxRP1JkUDcFNQUwBjBUO1dgAiRTYggmB24CYQVkUDVQaVc9BzEHbAIzVXRWIAcrBztVZ1A3XTJSN1YvBWMLalB+UTpSZVAgBTcFNQY3VGlXYwIyU2IIYgdlAmcFMlAwUGNXbwdnB2sCNlU3VmAHagc0VWJQMF1hUmBWYwVrC25QNVE8UjNQPQUpBXgGaVR4V3ACd1N3CDAHIQI9BTdQOVBgVzsHMwdsAjdVZlZgB30HclU8UGpdZVJgVj0FYgtpUGNRO1JvUD4FPwU2BjVUO1dwAmRTaAgiB24CZQVlUDZQYVc1BzMHbwI3VWVWZQd9B3NVJVBwXT1SN1Y2BWELb1BpUTpSYFA6BTYFOgYmVH1XPwJyUzkIZAdhAmUFfVAzUGZXIwczB24COFV8VmEHbwcxVXNQY11sUjtWMQ==" ToolTip="" />
+			<local:MyButton Margin="0,0,20,2" Width="140" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0" ColorType="red"
+				Text="进入q群" EventType="打开文件" EventData="./KingSkin插件库/2.html" ToolTip=""/>
+          </StackPanel>
+          <!--下一个菜单行-->
+          <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+			<local:MyButton Margin="0,0,20,2" Width="140" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0" ColorType="Highlight"
+				Text="樱花映射" EventType="打开网页" EventData="https://www.natfrp.com/?page=panel" ToolTip="端口映射&#xA;记得每天白嫖流量哦"/>
+			<local:MyButton Margin="0,0,20,2" Width="140" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0" ColorType="Highlight"
+				Text="服务端镜像" EventType="打开网页" EventData="https://mirror.zerodream.net/" ToolTip="樱花镜像站&#xA;服务端常用核心下载，开服必备"/>
+			<local:MyButton Margin="0,0,20,2" Width="140" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0" ColorType="Highlight"
+				Text="命令升级" EventType="打开网页" EventData="https://spu.spgoding.com/" ToolTip="'SPU',可以将旧版本的命令升级到新版本使用"/>
+          </StackPanel>
+          <!--下一个菜单行-->
+          <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+			<local:MyButton Margin="0,0,20,2" Width="140" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0" ColorType="Highlight"
+				Text="ChunkBase" EventType="打开网页" EventData="https://chunkbase.com/apps/" ToolTip="一个很实用的网站&#xA;可以查询史莱姆区块、群系、自然生成的建筑等"/>     
+			<local:MyButton Margin="0,0,20,2" Width="140" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0" ColorType="Highlight"
+				Text="MC Tools" EventType="打开网页" EventData="https://minecraft.tools/en/" ToolTip="同样一个很实用的网站,可惜没有中文&#xA;可以自定义几乎一切"/>
+			<local:MyButton Margin="0,0,20,2" Width="140" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0" ColorType="Highlight"
+				Text="Opt中文网" EventType="打开网页" EventData="https://optifine.cn/downloads" ToolTip="非官方国内Optifine下载源"/>
+		</StackPanel>
+	</StackPanel>
+</local:MyCard>
+<!--下一个卡片-->
+<local:MyCard Title="服务器列表" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
+	<StackPanel Margin="25,40,23,15">
+		<Image Height="103"  HorizontalAlignment="Left" Source="https://tietu.mcstatus.cn/banner/default/293/green/2.jpg"/>
+        	<Image Height="103"  HorizontalAlignment="Left" Source="https://tietu.mcstatus.cn/banner/default/294/green/2.jpg"/>
+		<Image Height="103"  HorizontalAlignment="Left" Source="https://tietu.mcstatus.cn/banner/default/295/green/1.jpg"/>
+        	<Image Height="90"  HorizontalAlignment="Left" Source="https://tietu.mclists.cn/banner/play.moonmc.cn_25565.jpg"/>
+		<Image Width="540" HorizontalAlignment="Left" Source="https://tietu.mclists.cn/banner/s4.e7mc.com_12385.jpg" /> 
+	</StackPanel>
+</local:MyCard>
+<!--下一个卡片-->
+<local:MyCard Title="快捷方式" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
+     <StackPanel Margin="25,40,23,15">
+          <TextBlock TextWrapping="Wrap" Margin="0,0,0,2"
+                    Text="Minecraft综合" FontFamily="Microsoft YaHei UI Light" FontSize="19" Foreground="#FF2D2D30"/>
+          <StackPanel Orientation="Horizontal">
+               <local:MyButton Margin="0,0,20,2" Width="140" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0" ColorType="Highlight"
+                    Text="MCForum" EventType="打开网页" EventData="https://www.minecraftforum.net/" ToolTip="国外著名Minecraft论坛"/>
+               <local:MyButton Margin="0,0,20,2" Width="140" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0" ColorType="Highlight"
+                    Text="MCBBS" EventType="打开网页" EventData="https://www.mcbbs.net/" ToolTip="著名我的世界论坛,包含材质包,mod,插件,核心等下载地址。(❤ ω ❤)"/>
+               <local:MyButton Margin="0,0,20,2" Width="140" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0" ColorType="Highlight"
+                    Text="NameMc" EventType="打开网页" EventData="https://zh-cn.namemc.com/" ToolTip="著名网站,包含皮肤下载,服务器推荐,正版玩家皮肤查询等功能。"/>
+          </StackPanel>
+          <!--下一个菜单行-->
+          <StackPanel Orientation="Horizontal">
+               <local:MyButton Margin="0,0,20,2" Width="140" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0" ColorType="Highlight"
+                    Text="官方网站" EventType="打开网页" EventData="https://www.minecraft.net/zh-hans/" ToolTip="MoJang我的世界国际版官方网站"/>
+               <local:MyButton Margin="0,0,20,2" Width="140" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0" ColorType="Highlight"
+                    Text="我的世界 Wiki" EventType="打开网页" EventData="https://minecraft-zh.gamepedia.com/Minecraft_Wiki" ToolTip="我的世界百科,对每一种物品/方块都进行了详细的讲解。"/>
+               <local:MyButton Margin="0,0,20,2" Width="140" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0" ColorType="Highlight"
+                    Text="我的世界Mod百科" EventType="打开网页" EventData="https://www.mcmod.cn/" ToolTip="我的世界Mod百科,包含模组合成表,使用方法等等。"/>
+          </StackPanel>
+          <!--下一个菜单行-->
+          <StackPanel Orientation="Horizontal">
+               <local:MyButton Margin="0,0,20,2" Width="140" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0" ColorType="Highlight"
+                    Text="Forge API" EventType="打开网页" EventData="https://files.minecraftforge.net" ToolTip="Forge官方网站,安装API后即可装在模组."/>
+               <local:MyButton Margin="0,0,20,2" Width="140" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0" ColorType="Highlight"
+                    Text="Fabric API" EventType="打开网页" EventData="https://www.fabricmc.net" ToolTip="类似于Forge,新兴的模组API"/>
+               <local:MyButton Margin="0,0,20,2" Width="140" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0" ColorType="Highlight"
+                    Text="CurseForgeForMC" EventType="打开网页" EventData="https://www.curseforge.com/minecraft" ToolTip="最好的我的世界模组下载站。"/>
+          </StackPanel>
+          <!--下一个菜单行-->
+          <StackPanel Orientation="Horizontal">
+               <local:MyButton Margin="0,0,20,2" Width="140" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0" ColorType="Highlight"
+                    Text="国服Minecraft" EventType="打开网页" EventData="https://mc.163.com" ToolTip="垃圾的网易代理我的世界"/>
+               <local:MyButton Margin="0,0,20,2" Width="140" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0" ColorType="Highlight"
+                    Text="ChunkBase" EventType="打开网页" EventData="https://www.chunkbase.com" ToolTip="区块检查器,常用于检查种子的史莱姆区块等。"/>
+               <local:MyButton Margin="0,0,20,2" Width="140" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0" ColorType="Highlight"
+                    Text="MC中文下载站" EventType="打开网页" EventData="http://www.minecraftxz.com/" ToolTip="国内一个优秀的我的世界资源下载站"/>
+          </StackPanel>
+          <!--下一个菜单行-->
+          <StackPanel Orientation="Horizontal">
+               <local:MyButton Margin="0,0,20,2" Width="140" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0" ColorType="Highlight"
+                    Text="Minecraft Maps" EventType="打开网页" EventData="https://www.minecraftmaps.com/" ToolTip="老牌的我的世界地图资源网站,访问速度缓慢"/>
+               <local:MyButton Margin="0,0,20,2" Width="140" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0" ColorType="Highlight"
+                    Text="Nova Skin" EventType="打开网页" EventData="https://minecraft.novaskin.me/wallpapers" ToolTip="一个国外的MC封面制作网站，很多B站UP主的封面都可能来自这里"/>
+               <local:MyButton Margin="0,0,20,2" Width="140" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0" ColorType="Highlight"
+                    Text="Optifine" EventType="打开网页" EventData="https://www.optifine.net/home" ToolTip="高清修复框架,可承载光影."/>
+          </StackPanel>
+          <!--下一个菜单行-->
+          <StackPanel Orientation="Horizontal">
+               <local:MyButton Margin="0,0,20,2" Width="140" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0" ColorType="Highlight"
+                    Text="中文资源网" EventType="打开网页" EventData="http://www.mcmap.cc/" ToolTip="最好的我的世界资源站"/>
+               <local:MyButton Margin="0,0,20,2" Width="140" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0" ColorType="Highlight"
+                    Text="中文分享站" EventType="打开网页" EventData="https://www.secretmine.net/" ToolTip="下载地址有点不靠谱。。"/>
+               <local:MyButton Margin="0,0,20,2" Width="140" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0" ColorType="Highlight"
+                    Text="LiteLoader" EventType="打开网页" EventData="http://www.liteloader.com/" ToolTip="类似于Forge的Mod加载框架"/>
+          </StackPanel>
+          <TextBlock TextWrapping="Wrap" Margin="0,0,0,2"
+                    Text="Minecraft皮肤" FontFamily="Microsoft YaHei UI Light" FontSize="19" Foreground="#FF2D2D30"/>
+           <!--下一个菜单行-->
+          <StackPanel Orientation="Horizontal">
+               <local:MyButton Margin="0,0,20,2" Width="140" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0" ColorType="Highlight"
+                    Text="littleskin" EventType="打开网页" EventData="https://mcskin.littleservice.cn/" ToolTip="轻量化的免费公益我的世界皮肤平台."/>
+               <local:MyButton Margin="0,0,20,2" Width="140" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0" ColorType="Highlight"
+                    Text="BlessingSkin" EventType="打开网页" EventData="https://skin.prinzeugen.net/" ToolTip="类似于littleskin,但PHP开源."/>
+               <local:MyButton Margin="0,0,20,2" Width="140" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0" ColorType="Highlight"
+                    Text="SkinMe" EventType="打开网页" EventData="http://www.skinme.cc/" ToolTip="马上快垮了"/>
+          </StackPanel>
+          <!--下一个菜单行-->
+          <StackPanel Orientation="Horizontal">
+               <local:MyButton Margin="0,0,20,2" Width="140" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0" ColorType="Highlight"
+                    Text="McSkin" EventType="打开网页" EventData="https://mcskin.cn" ToolTip="红石皮肤站"/>
+          </StackPanel>
+          <TextBlock TextWrapping="Wrap" Margin="0,0,0,2"
+                    Text="Minecraft建筑" FontFamily="Microsoft YaHei UI Light" FontSize="19" Foreground="#FF2D2D30"/>
+          <!--下一个菜单行-->
+          <StackPanel Orientation="Horizontal">
+               <local:MyButton Margin="0,0,20,2" Width="210" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0" ColorType="Highlight"
+                    Text="Plotz Model Selection" EventType="打开网页" EventData="https://www.plotz.co.uk/" ToolTip="我的世界建筑神器!包含多种建筑."/>
+          </StackPanel>
+          <TextBlock TextWrapping="Wrap" Margin="0,0,0,2"
+                    Text="Minecraft指令" FontFamily="Microsoft YaHei UI Light" FontSize="19" Foreground="#FF2D2D30"/>
+          <!--下一个菜单行-->
+          <StackPanel Orientation="Horizontal">
+               <local:MyButton Margin="0,0,20,2" Width="140" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0" ColorType="Highlight"
+                    Text="甘小蔗" EventType="打开网页" EventData="https://mc.ganxiaozhe.com/mc/" ToolTip="我的世界指令必备!"/>
+          </StackPanel>
+          <TextBlock TextWrapping="Wrap" Margin="0,0,0,2"
+                    Text="MinecraftPvP客户端" FontFamily="Microsoft YaHei UI Light" FontSize="19" Foreground="#FF2D2D30"/>
+           <!--下一个菜单行-->
+          <StackPanel Orientation="Horizontal">
+               <local:MyButton Margin="0,0,20,2" Width="140" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0" ColorType="Highlight"
+                    Text="Badlion" EventType="打开网页" EventData="https://www.badlion.net/" ToolTip="老牌PvP客户端"/>
+               <local:MyButton Margin="0,0,20,2" Width="140" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0" ColorType="Highlight"
+                    Text="Lunar Client" EventType="打开网页" EventData="https://www.lunarclient.com/" ToolTip="高Fps客户端,渣机福利"/>
+               <local:MyButton Margin="0,0,20,2" Width="140" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0" ColorType="Highlight"
+                    Text="PVPLOUNGE" EventType="打开网页" EventData="https://pvplounge.com/" ToolTip="1.8.9以及1.7.10同时支持!"/>
+          </StackPanel>
+          <!--下一个菜单行-->
+          <StackPanel Orientation="Horizontal">
+               <local:MyButton Margin="0,0,20,2" Width="140" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0" ColorType="Highlight"
+                    Text="LabyMOD" EventType="打开网页" EventData="https://www.labymod.net/" ToolTip="支持1.8.9以及1.12.2的多合一修改"/>
+               <local:MyButton Margin="0,0,20,2" Width="140" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0" ColorType="Highlight"
+                    Text="pixel Client" EventType="打开网页" EventData="https://cosmicclient.com/" ToolTip="又是一个高Fps客户端!"/>
+               <local:MyButton Margin="0,0,20,2" Width="140" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0" ColorType="Highlight"
+                    Text="BatMOD" EventType="打开网页" EventData="https://batmod.com/" ToolTip="‘最好的我的世界体验!’————Bat官网"/>
+          </StackPanel>
+          <!--下一个菜单行-->
+          <StackPanel Orientation="Horizontal">
+               <local:MyButton Margin="0,0,20,2" Width="140" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0" ColorType="Highlight"
+                    Text="blazingpack" EventType="打开网页" EventData="https://blazingpack.pl/" ToolTip="1.8.8的PvP客户端!"/>
+               <local:MyButton Margin="0,0,20,2" Width="140" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0" ColorType="Highlight"
+                    Text="Podcrash+" EventType="打开网页" EventData="https://podcrash.plus/" ToolTip="1.7-1.9统统支持!"/>
+               <local:MyButton Margin="0,0,20,2" Width="140" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0" ColorType="Highlight"
+                    Text="Salwyrr" EventType="打开网页" EventData="https://www.salwyrr.com/" ToolTip="该启动器已经更新到第三代!"/>
+          </StackPanel>
+          <!--下一个菜单行-->
+          <TextBlock TextWrapping="Wrap" Margin="0,0,0,2"
+                    Text="视频平台" FontFamily="Microsoft YaHei UI Light" FontSize="19" Foreground="#FF2D2D30"/>
+          <!--下一个菜单行-->
+          <StackPanel Orientation="Horizontal">
+               <local:MyButton Margin="0,0,20,2" Width="140" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0" ColorType="Highlight"
+                    Text="BiliBili" EventType="打开网页" EventData="https://www.bilibili.com/" ToolTip="哔哩哔哩,干杯[]~(￣▽￣)~*!"/>
+               <local:MyButton Margin="0,0,20,2" Width="140" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0" ColorType="Highlight"
+                    Text="优酷" EventType="打开网页" EventData="https://www.youku.com/" ToolTip="这世界很酷~~~"/>
+               <local:MyButton Margin="0,0,20,2" Width="140" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0" ColorType="Highlight"
+                    Text="爱奇艺" EventType="打开网页" EventData="https://www.iqiyi.com/" />
+          </StackPanel>
+          <!--下一个菜单行-->
+          <StackPanel Orientation="Horizontal">
+               <local:MyButton Margin="0,0,20,2" Width="140" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0" ColorType="Highlight"
+                    Text="西瓜视频" EventType="打开网页" EventData="https://www.ixigua.com/" />
+               <local:MyButton Margin="0,0,20,2" Width="140" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0" ColorType="Highlight"
+                    Text="腾讯视频" EventType="打开网页" EventData="https://m.v.qq.com/" />
+               <local:MyButton Margin="0,0,20,2" Width="140" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0" ColorType="Highlight"
+                    Text="AcFun" EventType="打开网页" EventData="https://www.acfun.cn/" ToolTip="动漫爱好者必备!"/>
+          </StackPanel>
+          <TextBlock TextWrapping="Wrap" Margin="0,0,0,2"
+                    Text="音乐相关" FontFamily="Microsoft YaHei UI Light" FontSize="19" Foreground="#FF2D2D30"/>
+          <!--下一个菜单行-->
+          <StackPanel Orientation="Horizontal">
+               <local:MyButton Margin="0,0,20,2" Width="140" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0" ColorType="Highlight"
+                    Text="网易云(网抑云)" EventType="打开网页" EventData="https://music.163.com/" ToolTip="音(V)乐(ip)的力量!"/>
+               <local:MyButton Margin="0,0,20,2" Width="140" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0" ColorType="Highlight"
+                    Text="QQ音乐" EventType="打开网页" EventData="https://y.qq.com/" ToolTip="音(V)乐(ip)每一天!"/>
+               <local:MyButton Margin="0,0,20,2" Width="140" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0" ColorType="Highlight"
+                    Text="虾米音乐" EventType="打开网页" EventData="https://www.xiami.com/" ToolTip="这虾米有海腥味吗QvQ"/>      
+          </StackPanel>
+     </StackPanel>
+</local:MyCard>
+<!--下一个卡片-->
+
+<local:MyCard Title="关于King Skin For PCL与PCL鸣谢" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
+     <StackPanel Margin="25,40,23,15">
+          <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="UI版本:Alpha 2.1.3" VerticalAlignment="Top" Margin="0,0,0,15" Foreground="#FFFF8000" Height="16" Width="200"/>
+          <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="制作:HuaJi_King" VerticalAlignment="Top" Margin="0,0,0,15" Foreground="#FFFF00A2" Height="16" Width="140"/>
+          <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="更新时间:2021年5月30日" VerticalAlignment="Top" Margin="0,0,0,15" Foreground="#FF003AFF" Height="16" Width="200"/>
+          <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="未经HuaJi_King授权禁止转载" VerticalAlignment="Top" Margin="0,0,0,15" Foreground="#FF003AFF" Height="24" Width="400" FontSize="18" FontFamily="Microsoft YaHei UI Light"/>
+          <Image HorizontalAlignment="Left" Height="441" VerticalAlignment="Top" Width="1263" Source="https://i0.hdslb.com/bfs/album/c7ebebe8e0a4a58b975fc51f8dfc5ee898788889.png"/>
+          <Image HorizontalAlignment="Left" Height="255" VerticalAlignment="Top" Width="1350" Source="https://i0.hdslb.com/bfs/album/6fe39d604e66a55f21a7b7c0321f0ce8e6f703d8.png"/>
+     </StackPanel>
+</local:MyCard>
+
+<!-- 
+
+全部通用的属性：
+ - Width、Height：设置宽度与高度
+ - ToolTip：设置鼠标指向时的提示文本
+ - Foreground：调整前景颜色（十六进制字符串，例如 #FF010203 代表 ARGB 中的 255,1,2,3。前两位代表不透明度，FF 为全不透明，00 为全透明）
+ - Background：调整背景颜色（使用类似 Background="{DynamicResource ColorBrush5}" 的格式以调用 PCL2 当前的主题颜色，修改末尾的数字编号以改变颜色浓度）
+ - Margin：调整外边距（格式为 左,上,右,下。例如 Margin="0,0,0,2" 即为 2 单位的下边距）
+ - HorizontalAlignment：设置对齐方式（Left、Center、Right）
+
+TextBlock（纯文本）：
+ - Text：设置显示的文本（如果要使用引号等特殊字符，自行百度 XAML 转义）
+ - TextWrapping：开启自动换行
+ - FontSize：设置字号
+ 
+Image（图片）：
+ - Source：要显示的图片的网址
+
+local:MyHint（提示条）：
+ - Text：设置显示的文本（&#xA; 代表换行）
+ - IsWarn：设置为 True 代表警告样式，False 代表提示样式
+ 
+local:MyButton（按钮）：
+ - Text：设置显示的文本
+ - Padding：设置内边距，格式与 Margin 一致
+ - ColorType：设置颜色主题（Highlight 为当前启动器的主题颜色，Red 为红色，默认为黑色）
+ - EventType、EventData：触发特定事件
+ 
+local:MyTextButton（文本按钮）：
+ - Text：设置显示的文本
+ - EventType、EventData：触发特定事件
+ 
+local:MyCard（卡片）：
+ - Title：设置显示的标题文本
+ - CanSwap：这张卡片是否可以折叠，True 为是，False 为否
+ - IsSwaped：这张卡片是否默认折叠，要求 CanSwap 必须为 True
+
+-->

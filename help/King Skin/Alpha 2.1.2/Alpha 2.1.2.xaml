@@ -1,0 +1,8 @@
+<local:MyCard Title="King Skin For PCL Alpha 2.1.2 更新日志" Margin="0,0,0,15" Background="{DynamicResource ColorBrush15}">
+    <StackPanel Margin="25,40,23,15">
+        <Image Height="250"  HorizontalAlignment="Center" Source="https://i0.hdslb.com/bfs/album/7a44de100f50f09a4d93c68ba1cc7407f3eef838.png" />
+        <TextBlock TextWrapping="Wrap" FontSize="15" Text="本次更新了帮助界面"/>
+        <TextBlock TextWrapping="Wrap" FontSize="15" Text="修复了奇特的bug无数个"/>  
+        <TextBlock TextWrapping="Wrap" FontSize="15" Text="预计Alpha 2.1.3下周更新（咕咕咕）"/>  
+    </StackPanel>
+</local:MyCard>
